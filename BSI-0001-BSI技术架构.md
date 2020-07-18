@@ -24,6 +24,7 @@ BSI本着『安以致信、链惠天下』的基本目标，以区块链技术�
 
 ## 行业分析
 ![](https://github.com/BSI-Lab/doc/raw/master/Picture-material/BSI.png)
+
 注：（1）管理入口指智能合约部署管理的入口；
-（2）节点复用性指是否可以加入多个应用智能合约服务平台。Picture-material/BSI技术架构/BSI功能结构图.png
+（2）节点复用性指是否可以加入多个应用智能合约服务平台。
 
