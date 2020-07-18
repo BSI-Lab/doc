@@ -23,7 +23,8 @@ BSI本着『安以致信、链惠天下』的基本目标，以区块链技术�
 在BSI-league的内部，基于具体的业务智能合约创建的区块链，实现对具体业务的多节点共识验证和交易存储。
 
 ## 行业分析
-![](https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI技术架构-行业分析.png)
+
+<img src="https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI技术架构-行业分析.png" width="500">
 
 注：（1）管理入口指智能合约部署管理的入口；
 （2）节点复用性指是否可以加入多个应用智能合约服务平台。
@@ -46,8 +47,11 @@ BSI根据生态目标及需求背景，同时为了不同行业领域的应用�
 （2）共识决策层对上层提供基于业务规则的智能合约决策服务，共识决策层会由于应用业务的种类不同而分属于不同的应用通道；
 （3）接入验证层对上层提供交易的接入和查询验证服务；
 应用服务层是基于BSI构建的业务应用，对直接的用户提供相关业务应用服务。
-![](https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI服务结构图.png)
-![](https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI逻辑结构图.png)
+
+<img src="https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI服务结构图.png" width="500">
+
+<img src="https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI逻辑结构图.png" width="500">
+
 
 ## 功能模块
 BSI的功能模块主要分为四个部分：
@@ -55,9 +59,11 @@ BSI的功能模块主要分为四个部分：
 （2）BSI组织管理服务，主要通过对归属的共识节点及接入验证服务进行管理，对BSI智能合约部署管理服务提供区块链基础节点服务；
 （3）BSI共识服务，主要提供基于智能合约的业务规则验证及共识服务；
 （4）BSI接入验证服务，主要提供区块链交易接入及查询验证服务。
-![](https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI功能结构图.png)
+
+<img src="https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI功能结构图.png" width="500">
 
 ## 网络模型
 BSI部署主要以组织为单位进行统一的部署维护管理，每个组织均根据实际需求部署组织管理服务一套、接入验证服务一套、共识服务多套（根据实际业务需求扩展），不同组织通过网络SSL网络进行链接，并在网络边界部署防火墙，保护网络边界安全，此外在电科BSI组织中将部署智能合约部署管理服务，对全网的智能合约进行安装部署管理。
-![](https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI部署结构图.png)
+
+<img src="https://github.com/BSI-Lab/doc/blob/master/Picture-material/BSI技术架构/BSI部署结构图.png" width="500">
 
